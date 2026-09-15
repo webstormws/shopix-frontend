@@ -39,6 +39,15 @@ export default function Navbar() {
           />
         </form>
 
+
+
+
+
+
+
+
+
+
         <div className="flex items-center gap-3 shrink-0">
           <Link to="/cart" className="relative px-3 py-1.5 rounded-lg hover:bg-shopix-bg">
             🛒
