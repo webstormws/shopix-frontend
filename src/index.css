@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Umumiy sahifa fon va matn rangi (Shopix to'q yashil-qora dizayni) */
+body {
+  @apply bg-shopix-bg text-shopix-text;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #22302a;
+  border-radius: 8px;
+}
