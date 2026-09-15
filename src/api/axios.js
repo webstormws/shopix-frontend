@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Django backend manzili — .env orqali ham berish mumkin
-export const BASE_URL = import.meta.env.VITE_API_URL || "http://127.0.0.1:8000/api";
+export const BASE_URL = import.meta.env.VITE_API_URL || "https://hearty-learning-production-d991.up.railway.app/api";
 export const MEDIA_URL = BASE_URL.replace(/\/api\/?$/, "/");
 
 const api = axios.create({ baseURL: BASE_URL });

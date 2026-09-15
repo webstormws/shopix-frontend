@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000/api'
+const API_URL = import.meta.env.VITE_API_URL || 'https://hearty-learning-production-d991.up.railway.app/api'
 
 const client = axios.create({
   baseURL: API_URL,
